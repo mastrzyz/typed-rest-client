@@ -10,8 +10,7 @@
     "samples": "node make.js samples",
     "units": "node make.js units",
     "validate": "node make.js validate",
-    "postinstall": "npm build && npm link _build"
-  
+    "postinstall": "yarn build && cd _build && yarn link"
   },
   "repository": {
     "type": "git",
