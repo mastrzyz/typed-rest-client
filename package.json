@@ -9,8 +9,7 @@
     "bt": "node make.js buildtest",
     "samples": "node make.js samples",
     "units": "node make.js units",
-    "validate": "node make.js validate",
-    "postinstall": "yarn tsc"
+    "validate": "node make.js validate"
   },
   "repository": {
     "type": "git",
