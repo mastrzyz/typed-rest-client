@@ -10,7 +10,7 @@
     "samples": "node make.js samples",
     "units": "node make.js units",
     "validate": "node make.js validate",
-    "postinstall": "yarn build"
+    "postinstall": "yarn tsc"
   },
   "repository": {
     "type": "git",
